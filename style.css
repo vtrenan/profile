@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap');
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: black;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+}
+
+body {
+  background-color: white;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(118, 171, 174);
+}
+
+.button {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  color: rgb(87, 95, 125);
+  display: block;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 700px; */
+}
+
+#pfp {
+  border-radius: 50%;
+}
+
+.cardone {
+  background-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px 0px;
+  color: rgb(87, 95, 125);
+  display: block;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 20px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  text-align: center;
+  /* width: 620px; */
+}
+
+.list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list li {
+  display: inline;
+  padding: 10px;
+}
+.list i {
+  font-size: 50px;
+  color: rgb(118, 171, 174);
+}
+.list i:hover {
+  color: black;
+}
+
+.content {
+ display: contents;
+}
+
+.gif {
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.before-button{
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+
+
+ @media (max-width: 960px) {
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
